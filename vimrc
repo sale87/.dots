@@ -77,8 +77,8 @@ set incsearch
 set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
-nnoremap <tab> %
-vnoremap <tab> %
+" nnoremap <tab> %
+" vnoremap <tab> %
 
 " save file with Leader w
 nnoremap <Leader>w :w<CR>
@@ -154,7 +154,6 @@ map <leader>c "+y
 let g:airline_theme='murmur'
 let status = 2
 
-map <C-[> <C-o>
-
 let g:vim_tags_auto_generate = 1
 let g:vim_tags_main_file = 'tags'
+
