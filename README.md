@@ -1,7 +1,7 @@
 Basic dotfiles
 
 ```
-git clone ~/.dots
+git clone git@github.com:sale87/.dots.git
 
 cd .dots
 
