@@ -23,5 +23,6 @@ alias gs='git status'
 alias gd='git diff'
 alias ga='git add .'
 alias gc='git commit -am'
+alias go='git checkout '
 
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
